@@ -1,0 +1,13 @@
+Hello from kernel
+Agentic OS booted via GRUB Multiboot (32-bit protected mode).
+M5 libc tests: PASS
+Interactive serial shell ready. Type help.
+agentic-os> test_div0
+Triggering divide error...
+
+KERNEL PANIC: CPU exception
+vector=0 name=divide error
+error=0x00000000 eip=0x00100D6C cs=0x00000008 eflags=0x00000046
+eax=0x00000001 ebx=0x00105F58 ecx=0x00000000 edx=0x00000000
+esi=0x000003FD edi=0x000003F8 ebp=0x001011DD esp=0x00105F24
+System halted after handled exception.

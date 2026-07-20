@@ -1,0 +1,14 @@
+Hello from kernel
+Agentic OS booted via GRUB Multiboot (32-bit protected mode).
+M5 libc tests: PASS
+Interactive serial shell ready. Type help.
+agentic-os> test_pagefault
+Triggering page fault...
+
+KERNEL PANIC: CPU exception
+vector=14 name=page fault
+error=0x00000000 eip=0x00100CF0 cs=0x00000008 eflags=0x00000046
+eax=0x00000000 ebx=0x00105F58 ecx=0x0000000A edx=0x000003F8
+esi=0x000003FD edi=0x000003F8 ebp=0x001011F7 esp=0x00105F24
+cr2=0xFFC00000
+System halted after handled exception.
