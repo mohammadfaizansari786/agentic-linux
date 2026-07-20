@@ -1,0 +1,11 @@
+Hello from kernel
+Agentic OS booted via GRUB Multiboot (32-bit protected mode).
+M5 libc tests: PASS
+Interactive serial shell ready. Type help.
+agentic-os> help
+Commands: help echo clear ls reboot status
+agentic-os> echo boot ok
+boot ok
+agentic-os> status
+M1 boot, M5 utilities, M8 serial shell: PASS; later milestones deferred.
+agentic-os> 

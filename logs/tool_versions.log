@@ -1,0 +1,6 @@
+## Tool versions
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GNU ld (GNU Binutils for Ubuntu) 2.42
+grub-mkrescue (GRUB) 2.12-1ubuntu7.3
+QEMU emulator version 8.2.2 (Debian 1:8.2.2+ds-0ubuntu1.17)
+xorriso 1.5.6
